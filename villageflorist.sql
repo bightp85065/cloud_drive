@@ -19,10 +19,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- 資料庫： `villageflorist`
+-- 資料庫： `village_florist`
 --
-CREATE DATABASE IF NOT EXISTS `villageflorist` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `villageflorist`;
+CREATE DATABASE IF NOT EXISTS `village_florist` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `village_florist`;
 
 -- --------------------------------------------------------
 
@@ -3253,8 +3253,8 @@ INSERT INTO `core_config_data` (`config_id`, `scope`, `scope_id`, `path`, `value
 (3, 'default', 0, 'catalog/category/root_id', '2'),
 (4, 'default', 0, 'payment/paypal_express/skip_order_review_step', '1'),
 (5, 'default', 0, 'admin/dashboard/enable_charts', '1'),
-(6, 'default', 0, 'web/unsecure/base_url', 'http://140.118.122.149:8080/villageflorist/shop/'),
-(7, 'default', 0, 'web/secure/base_url', 'http://140.118.122.149:8080/villageflorist/shop/'),
+(6, 'default', 0, 'web/unsecure/base_url', 'http://vf.dev.coretekllc.com/shop/'),
+(7, 'default', 0, 'web/secure/base_url', 'http://vf.dev.coretekllc.com/shop/'),
 (8, 'default', 0, 'general/locale/code', 'en_US'),
 (9, 'default', 0, 'general/locale/timezone', 'America/Los_Angeles'),
 (10, 'default', 0, 'currency/options/base', 'USD'),
